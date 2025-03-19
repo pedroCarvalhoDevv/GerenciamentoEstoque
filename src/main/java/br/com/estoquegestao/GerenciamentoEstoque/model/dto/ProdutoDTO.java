@@ -13,11 +13,10 @@ public class ProdutoDTO {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long idProduto;
     private String descricaoProduto;
     private double precoCompra;
     private double precoVenda;
     private int estoqueAtual;
-    private boolean statusProduto;
+
 
 }

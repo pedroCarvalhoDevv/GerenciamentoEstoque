@@ -17,6 +17,7 @@ public class Produto {
     private String descricaoProduto;
     private double precoCompra;
     private double precoVenda;
+    private double quantidadeUltimaEntrada;
     private int estoqueAtual;
     private boolean statusProduto;
 
